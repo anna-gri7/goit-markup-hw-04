@@ -1,0 +1,398 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
+  color: #4d5ae5;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+.logo .logo-span {
+  color: #2e2f42;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+address {
+  font-style: normal;
+}
+.page-nav .link {
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: 500;
+}
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: #404bbf;
+}
+.page-nav .link:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.add .address {
+  color: #434455;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.address:hover,
+.address:focus {
+  color: #404bbf;
+}
+.main-banner {
+  background-color: #2e2f42;
+  width: 100%;
+}
+.main-banner .banner-title {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.main-banner .btn-banner {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  font-weight: 500;
+  margin: 0;
+}
+
+.main-banner .btn-banner:hover,
+.main-banner .btn-banner:focus {
+  background-color: #404bbf;
+}
+
+h2 {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.quality .quality-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team .team-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.team .workers {
+  background-color: #ffffff;
+}
+.team .workers .name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.team .workers .text {
+  font-size: 16px;
+  margin: 0;
+}
+
+.portfolio .p-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.portfolio .app .name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin: 0;
+  padding: 0;
+}
+.portfolio .app .text {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #2e2f42;
+}
+.f-text {
+  color: #f4f4fd;
+}
+.logo .logo-span-f {
+  color: #f4f4fd;
+}
+
+/* containers */
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-header .container .logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
+.page-header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.page-header .container .page-nav {
+  display: flex;
+  gap: 40px;
+}
+
+.page-header .container .page-nav .link {
+  padding: 24px 0;
+}
+
+.page-header .container .add {
+  display: flex;
+  align-items: center;
+}
+.page-header .container .add .add-list .address {
+  padding: 24px 0;
+}
+
+.page-header .container .add-list {
+  display: flex;
+  gap: 40px;
+}
+
+.page-header .container .navigation {
+  display: flex;
+  align-items: center;
+}
+
+/* body */
+.main-banner {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.main-banner .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-banner .container .banner-title {
+  max-width: 496px;
+  margin-bottom: 48px;
+}
+
+.main-banner .container .btn-banner {
+  padding: 16px 32px;
+  border-radius: 4px;
+  border-style: none;
+  min-width: 169px;
+}
+
+/* 2 cекція */
+
+.quality {
+  padding: 120px 0;
+}
+.hidden-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.quality .container {
+  display: flex;
+}
+.quality .section-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.quality .section-list .quality-title {
+  margin-bottom: 8px;
+}
+
+.quality .section-list .quality-text {
+  margin: 0;
+}
+
+.quality li {
+  max-width: 264px;
+  width: calc((100% - 72px) / 4);
+}
+
+/* cекція 3 */
+
+.team {
+  padding: 120px 0;
+}
+
+.team .container {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.team .workers-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team .container .team-title {
+  margin-bottom: 72px;
+}
+
+.team .workers {
+  max-width: 264px;
+  width: calc((100% - 72px) / 4);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.team .container .workers-list .workers .name-and-job {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 32px 0;
+}
+
+.team .container .workers-list .workers .name {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.team .container .workers-list .workers .text {
+  text-align: center;
+}
+
+/* 4 section */
+
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.p-title {
+  margin-bottom: 72px;
+}
+
+.portfolio .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio .app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio .container .portfolio-list .app .name {
+  margin-bottom: 8px;
+}
+
+.portfolio .app .app-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+}
+
+/* footer */
+
+.ftr {
+  padding: 100px 0;
+}
+
+.ftr .container .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.ftr .container .f-text {
+  margin: 0;
+}
