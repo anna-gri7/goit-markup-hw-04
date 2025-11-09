@@ -89,7 +89,7 @@ address {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/banner.jpg);
+    url(../images/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
