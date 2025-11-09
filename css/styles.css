@@ -564,6 +564,7 @@ footer {
 
 .ftr .container {
   display: flex;
+  align-items: baseline;
 }
 .logo-text {
   display: flex;
